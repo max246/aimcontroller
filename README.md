@@ -1,4 +1,7 @@
 # aimcontroller
+
+![alt text](https://raw.githubusercontent.com/max246/aimcontroller/master/wiring.png)
+
 Hack of the Playstation aim controller
 
 I have re-wired the controller into a Teensy 3.6 to "filter the commands" and potentially create a combination to help or cheat in games. 
@@ -16,6 +19,9 @@ The re-wiring took a lot of time and I suggest to get a very good pair of tweeze
 
 ## PCB
 
+![alt text](https://raw.githubusercontent.com/max246/aimcontroller/master/pcb.png)
+
+
 Connector to solder on the PCB is a TE Connectivity FPC 0.5mm Pitch 24 Way Straight SMT Female FPC Connector. 
 Part number: 2-1734742-4
 
@@ -27,7 +33,8 @@ The ribbon cable is a 24 Pins AWM 2896 VW-1 30V 80C, which you can source on ali
 
 I have worked out each pins what they do, but please double check the orientation before connecting everything, it will be easy as the ground pins are close by and checking from the bespoke PCB to the actually Playstation board will take few seconds.
 
-I have made a small PDF with the schematic of what I found out.
+I have made a small PDF with the schematic of what I found out ( [LINK](https://raw.githubusercontent.com/max246/aimcontroller/master/PS4%20Aim%20Controller.pdf)
+ ) .
 
 R2 an L2 are not clever re-created, just a hack I found that worked, they apparently have a "pull up" resistor of X ohm and the pressure change the voltage difference. 
 I have used a digital potentiometer to short the Spare R2/L2 to the R2/L2 to create the similar beahvour. It worked!
