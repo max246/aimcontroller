@@ -1,4 +1,4 @@
-# aimcontroller
+# Playstation Aim Controller 
 
 ![alt text](https://raw.githubusercontent.com/max246/aimcontroller/master/wiring.png)
 
